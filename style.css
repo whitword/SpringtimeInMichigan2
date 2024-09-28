@@ -1,0 +1,79 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 115%;
+}
+
+header{
+    background-color: #8A817C;
+}
+
+nav{
+    background-color: #BCB8B1;
+    display: inline-block;
+    width: 80%;
+}
+
+main{
+    background-color: #E0AFA0;
+    font-size: medium;
+}
+
+footer{
+    background-color: #463F3A;
+    color: #F4F3EE;
+    padding: 10px;
+    text-align: center;
+}
+
+/* li{
+    display: inline;
+    width: 300px;
+    padding: 100px;
+    font-size: 30px;
+} */
+
+a{
+    color:#463F3A;
+}
+footer > p > a{
+    color: #E0AFA0;
+}
+
+h1{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #F4F3EE;
+    padding: 10px;
+}
+
+p{
+    line-height: 2rem;
+    font-size: 25px;;
+}
+
+nav img {
+    width: 10%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    gap: 20px;
+    justify-content: center; /* Aligns items horizontally in the center */
+    align-items: start; /* Aligns items to the start of each grid cell */
+    row-gap: 30px; /* Adjusts the vertical spacing between rows */
+}
+
+.grid img {
+    width: 100%;
+}
+
+.flex {
+    display: flex; 
+    flex-wrap: wrap;  
+    justify-content: space-between; 
+    align-items: flex-start; 
+    gap: 20px;
+}
+
+
